@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+
+body {
+    background-color: #f1f4eb;
+}
+
+.skip a {
+    background: green;
+    left: 0;    
+    padding: 7px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top:  -50px;
+}
+
+.skip a:focus {
+    display: inline-block;
+    top: -10;
+}
+
+*a:focus {
+    border-top: 10px dashed;
+    border-bottom: 10px dashed;
+}
+
+.home-h1 {
+    color: #000000;
+    font-size: 40px;
+    margin-top: 250px;
+}
+
+.about-h1 {
+    color: #000000;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.menu-h1 {
+    color: #000000;
+    font-size: 40px;
+}
+
+
+.title {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-img {
+    background-image: url('../images/cafe.jpg');
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-color: #eeeeec;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    opacity: 0.85;
+}
+
+.about-img {
+    background-image: url('../images/espresso.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-color: #eeeeec;
+    background-repeat: no-repeat;
+    opacity: 0.80;
+}
+
+.menu-img {
+    background-image: url('../images/pasteries.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-color: #eeeeec;
+    background-repeat: no-repeat;
+    opacity: 0.80;
+}
+
+.gallery-img {
+    background-image: url('../images/barista.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-color: #eeeeec;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+
+.contact-img {
+    background-image: url('../images/latte.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-color: #eeeeec;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+}
+
+body img{
+    opacity: 0.2;
+    width: 200px;
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    margin-top: 25px;  
+    margin-right: 10px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #7690e4;
+    color: #000;
+}
+
+.home-p1 {
+    margin: 50px;
+    font-size: 22px;
+}
+
+.about-p1 {
+    margin: 50px;
+    font-size: 22px;
+}
+
+
+@media all and (min-width: 880px) {
+
+}
+
+/* Add preferred reduce motion */
+
